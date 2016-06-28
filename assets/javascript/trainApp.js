@@ -79,6 +79,8 @@ clearForm();
   	
   	var diffTime = moment().diff(moment(firstTimeConverted), "minutes");
   	console.log('DIFFERENCE IN TIME:' + diffTime);
+  	td = $('<td>').text(recentTrain.trainTime)
+  	row.append(td);
 
   	var timeRemaining = diffTime % recentTrain.trainFrequency;
   	console.log(timeRemaining)

@@ -1,0 +1,33 @@
+.jumbotron{
+	background-color: saddlebrown;
+	padding-right: 20px;
+    padding-left: 20px;
+}
+ .jumbotron h1{
+	color: white;
+}
+  
+
+p {
+	color: white
+}
+.panel-default>.panel-heading {
+    background-color: steelblue;
+    color: white;
+}
+.panel-default {
+    border-color: steelblue;
+}
+
+.form-group {
+  margin-top: 10px;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+th {
+	font-weight: bold;
+}
+
+.panel>.table-bordered>thead>tr:first-child>th{
+	padding-left: 20px;
+}
